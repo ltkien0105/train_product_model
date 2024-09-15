@@ -1,0 +1,80 @@
+{
+    "dataset": {
+        "vietnamese_original": {
+            "src": "https://drive.google.com/file/d/1UUQhNvzgpZy7zXBFQp0Qox-BBjunZ0ml/view",
+            "id": "1m0ib-0JFUpO0kI8Q1Gcq8xTYVY3V3sTX",
+            "info": {
+                "train": 25794,
+                "test": 17306
+            }
+        },
+        "expiry_product": {
+            "src": "https://drive.google.com/drive/folders/1YuxWzVj6bT6gs6XlewEGetYrdgwZt7EH",
+            "id": "1VM3UkrKMrcqCmN1kWwgoU2zW-5VCkF2L",
+            "info": {
+                "train": 1,
+                "test": 17306
+            }
+        },
+        "private": {
+            "src": "https://drive.google.com/drive/folders/14jV4W7Cdz5Q-znwhY0GenLrWzKbgS4ah",
+            "id": "11MOECThNVX1U-BrYpzUGYOQvGqJDaM3-",
+            "info": {
+                "train": 701,
+                "test": 162
+            }
+        },
+        "train_data_1": {
+            "src": "https://drive.google.com/drive/folders/1WNOk3EMSgawdbrHeLiO7N_WcapgmbdmV",
+            "id": "1MGqhJnVS-X-IQEv4dj5xcgs9BUKEWWGZ",
+            "info": {
+                "train": 3220,
+                "test": 481
+            }
+        },
+        "ic15_data": {
+            "src": null,
+            "id": "1sUryuvRX5q714ahqHskdb8fQVeDuGvvk",
+            "info": {
+                "train": 4468,
+                "test": 2077
+            }
+        },
+        "digits": {
+            "src": null,
+            "id": "1n0bU3f01laOj990obVd0C7GtNlSjxATs",
+            "info": {
+                "train": 800,
+                "test": 200
+            }
+        },
+        "numbers": {
+            "src": null,
+            "id": "19kVrALwZ8XpWiZEhZAieoE6ekME7t2uM",
+            "info": {
+                "train": 1681,
+                "test": 420
+            }
+        },
+        "grocery_products": {
+            "src": "https://github.com/marcusklasson/GroceryStoreDataset"
+        },
+        "medicine_details": {
+            "src": "https://www.kaggle.com/datasets/singhnavjot2062001/11000-medicine-details"
+        }
+    },
+    "config": {
+        "srn_rec": {
+            "id": "1_3E3p0Y9BDuny_iNPYKjwsaufcoAYxyY"
+        },
+        "svtr_rec": {
+            "id": "16Twkt6MXFOeayJoTNGwqj-8ngLsyjoSo"
+        }
+    },
+    "output": {
+        "id": null
+    },
+    "dicts": {
+        "id": "1P1oBEBdFOphuoT79IWRNqmYIwbTItO0D"
+    }
+}

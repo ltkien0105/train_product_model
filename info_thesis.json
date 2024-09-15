@@ -61,6 +61,9 @@
         },
         "medicine_details": {
             "src": "https://www.kaggle.com/datasets/singhnavjot2062001/11000-medicine-details"
+        },
+        "dataset": {
+            "src": "https://drive.google.com/file/d/1An2gBtfoUmwpM-paa2bIR0p4C7RD5Axp/view?usp=sharing"
         }
     },
     "config": {

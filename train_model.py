@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 
 train_dir = 'dataset/train'
 val_dir = 'dataset/val'
-test_dir = 'dataset/test'
 
 train_dataset = image_dataset_from_directory(
     train_dir,
@@ -15,12 +14,6 @@ train_dataset = image_dataset_from_directory(
 
 val_dataset = image_dataset_from_directory(
     val_dir,
-    image_size=(256, 256),
-    batch_size=32
-)
-
-test_dataset = image_dataset_from_directory(
-    train_dir,
     image_size=(256, 256),
     batch_size=32
 )
@@ -63,8 +56,5 @@ history = model.fit(
     validation_data=val_dataset,
     epochs=10
 )
-
-test_loss, test_acc = model.evaluate(test_dataset)
-print(f'Test accuracy: {test_acc:.2f}')
 
 model.save('my_model.h5')
